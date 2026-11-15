@@ -1,0 +1,30 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Origin: JourneyOS
+Label: JourneyOS
+Suite: stable
+Codename: trixie
+Date: Sun, 15 Nov 2026 01:46:02 UTC
+Architectures: amd64
+Components: main
+Description: JourneyOS packages (shell, session, Quickshell)
+MD5Sum:
+ c0f97fb12984236c433c890c666ec075 4054 main/binary-amd64/Packages
+ 24a601b59e68b9fb7e1f1467ee02a3c8 1817 main/binary-amd64/Packages.gz
+ 26cf116a508b3dbded565bb8b25ef7d0 148 main/binary-amd64/Release
+SHA1:
+ 2ca680330522fc216f0d58ef8d02727f01cb4b29 4054 main/binary-amd64/Packages
+ 67eeae91cff52c3a470930db2ddc6419ad88b2f9 1817 main/binary-amd64/Packages.gz
+ 07e69009fb9d8c752091563842aa31cd92babe1e 148 main/binary-amd64/Release
+SHA256:
+ 2654cdee845f50ddb98f9d9300adbf39c2c199ff03b5589825ae9831199d122b 4054 main/binary-amd64/Packages
+ 84e3cb0ddfc4cbd49edd99564b98da4770fa2bc9c48481faf4d906beb45fe479 1817 main/binary-amd64/Packages.gz
+ 7b1dd1e991c16275f14457f590452d34f2436842a7d6f66dfb70cf60d9285b05 148 main/binary-amd64/Release
+-----BEGIN PGP SIGNATURE-----
+
+iHUEARYKAB0WIQTzES79tFoLi8f6zO7tDGR5tlqyaQUCavkO2gAKCRDtDGR5tlqy
+aYjgAP4jkH2iL2Oj4iyn3VSxup+H5jdlSl1eQbYJNr8CEGtB/gEA9/KGe06JbQcs
+k6b9O7n+bqd8cLbfaYQZd8diH/Wxgw4=
+=t/KL
+-----END PGP SIGNATURE-----

@@ -1,0 +1,14 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><title>JourneyOS packages</title>
+<style>body{font-family:monospace;background:#111112;color:#ececec;max-width:720px;margin:48px auto;padding:0 16px}
+pre{background:#18181a;padding:12px;border-radius:10px;overflow-x:auto}a{color:#f2f2f2}</style></head>
+<body><h1>JourneyOS packages</h1>
+<p>APT repository for JourneyOS (Debian 13 "trixie", amd64). JourneyOS installs already use it.</p>
+<pre>sudo curl -fsSLo /usr/share/keyrings/journeyos-archive-keyring.gpg https://josesilva14.github.io/JourneyOS-apt/journeyos-archive-keyring.gpg
+echo "Types: deb
+URIs: https://josesilva14.github.io/JourneyOS-apt
+Suites: trixie
+Components: main
+Signed-By: /usr/share/keyrings/journeyos-archive-keyring.gpg" | sudo tee /etc/apt/sources.list.d/journeyos.sources</pre>
+<p>Signing key fingerprint: <code>F3112EFDB45A0B8BC7FACCEEED0C6479B65AB269</code></p>
+</body></html>

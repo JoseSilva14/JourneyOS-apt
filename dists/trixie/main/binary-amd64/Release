@@ -1,0 +1,6 @@
+Archive: stable
+Component: main
+Origin: JourneyOS
+Label: JourneyOS
+Architecture: amd64
+Description: JourneyOS packages (shell, session, Quickshell)

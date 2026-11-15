@@ -1,0 +1,48 @@
+Package: journeyos-desktop
+Version: 1.1.0
+Architecture: all
+Maintainer: JourneyOS <noreply@journeyos.local>
+Depends: journeyos-shell (= 1.1.0), quickshell, kwin-wayland, kwin-common, kwin-x11, xwayland, kscreen, sddm, dbus-user-session, dbus-bin, seatd, pipewire, pipewire-pulse, wireplumber, network-manager, fonts-noto, mesa-vulkan-drivers, libgl1-mesa-dri, polkit-kde-agent-1, powerdevil, xdg-desktop-portal, xdg-desktop-portal-kde, layer-shell-qt, qt6-svg-plugins, qt6-image-formats-plugins, sudo, wpasupplicant, xdg-user-dirs, plasma-integration, breeze, breeze-gtk-theme, dolphin, gwenview, firefox-esr, plymouth, plymouth-label, zsh, zsh-autosuggestions, zsh-syntax-highlighting, fastfetch, flatpak, ark, kate, haruna, okular, unzip, zip, 7zip, cups, cups-client, cups-filters, ipp-usb, avahi-daemon, hunspell-pt-pt, hunspell-en-us, fonts-noto-cjk, snapper, btrfs-progs, unattended-upgrades
+Priority: optional
+Section: x11
+Filename: pool/main/j/journeyos-desktop/journeyos-desktop_1.1.0_all.deb
+Size: 4400920
+SHA256: ef6177df1c3d05d3eae3a60046d1d0731a87812794ea5531360bbebfc7dbd7f6
+SHA1: 328325b70e50798930b41819a1e91176ce5ce604
+MD5sum: d3dac94171e753aa97bf194727a7f468
+Description: JourneyOS desktop session
+ KWin (Wayland, without Plasma) + Quickshell session, the JourneyOS system
+ name and the boot menu theme.
+
+Package: journeyos-shell
+Version: 1.1.0
+Architecture: all
+Maintainer: JourneyOS <noreply@journeyos.local>
+Depends: quickshell, python3, python3-gi, gir1.2-glib-2.0, libkf6config-bin, libglib2.0-bin, qdbus-qt6, wl-clipboard, imagemagick, kde-spectacle, pipewire-bin, network-manager, mesa-utils-bin, rsync, curl, xdg-utils, xdg-user-dirs, konsole, kdialog, upower, bluez, power-profiles-daemon, udisks2, pkexec, accountsservice, polkit-kde-agent-1, kwin-wayland, kwin-common, kwin-style-breeze, kscreen, qml6-module-org-kde-kirigami, breeze-cursor-theme, kf6-breeze-icon-theme, fonts-jetbrains-mono, fonts-noto-color-emoji, ocean-sound-theme, sound-theme-freedesktop, sddm
+Recommends: cava, qrencode, fd-find
+Priority: optional
+Section: x11
+Filename: pool/main/j/journeyos-shell/journeyos-shell_1.1.0_all.deb
+Size: 2188236
+SHA256: 6f47ef6d6f9bdb021f2deaeeafd2a4b36c855522d2f473e3560aa470b3609da3
+SHA1: b17e8f9d58d9d417e51839d713bcfb1031ab5c82
+MD5sum: 45c0239c0ae0eab4ec827ba84d4970be
+Description: JourneyOS desktop shell (Quickshell)
+ Bar, dock, desktop widgets, notifications, launcher, dashboard and settings,
+ plus the matching lock screen, window decoration, Alt+Tab and login theme.
+
+Package: quickshell
+Version: 0.3.2+git9b0f339-1journeyos1
+Architecture: amd64
+Maintainer: JourneyOS <noreply@journeyos.local>
+Depends: libc6 (>= 2.38), libdrm2 (>= 2.4.109), libegl1, libgbm1 (>= 21.3.0~rc1), libgcc-s1 (>= 3.0), libglib2.0-0t64 (>= 2.80.0), libjemalloc2 (>= 5.3.0), libopengl0, libpam0g (>= 1.4.0), libpipewire-0.3-0t64 (>= 0.3.1), libpolkit-agent-1-0 (>= 0.99), libpolkit-gobject-1-0 (>= 0.94), libqt6core6t64 (>= 6.8.2), libqt6dbus6 (>= 6.8.2), libqt6gui6 (>= 6.4.0), libqt6network6 (>= 6.1.2), libqt6qml6 (>= 6.6.0), libqt6quick6 (>= 6.6.0), libqt6waylandclient6 (>= 6.6.0), libqt6widgets6 (>= 6.1.2), libstdc++6 (>= 14), libwayland-client0 (>= 1.20.0), libxcb1, qt6-base-private-abi (= 6.8.2), qt6-declarative-private-abi (= 6.8.2), qt6-waylandclient-private-abi (= 6.8.2), qt6-wayland, qt6-svg-plugins, qt6-image-formats-plugins, qml6-module-qtquick, qml6-module-qtquick-layouts, qml6-module-qtquick-controls, qml6-module-qtquick-window, qml6-module-qtquick-shapes, qml6-module-qtquick-effects, qml6-module-qtquick-templates, qml6-module-qtqml-workerscript, qml6-module-qtqml-models, qml6-module-qtcore
+Priority: optional
+Section: x11
+Filename: pool/main/q/quickshell/quickshell_0.3.2+git9b0f339-1journeyos1_amd64.deb
+Size: 2073128
+SHA256: 4aa511cc03ebe1edfbf4e6dd4f2c52293c826062c1a7f070acbddf98348d64b7
+SHA1: f36f27a552d2b8f1ff840ab99f21f938d51ffd17
+MD5sum: 216703f1c9665d7dd394491219686dd4
+Description: Flexible QtQuick based desktop shell toolkit
+ Quickshell built from source (crash handler disabled) for JourneyOS.
+
