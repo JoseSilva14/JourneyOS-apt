@@ -1,32 +1,32 @@
 Package: journeyos-desktop
-Version: 1.1.2
+Version: 1.1.3
 Architecture: all
 Maintainer: JourneyOS <noreply@journeyos.local>
-Depends: journeyos-shell (= 1.1.2), quickshell, kwin-wayland, kwin-common, kwin-x11, xwayland, kscreen, sddm, dbus-user-session, dbus-bin, seatd, pipewire, pipewire-pulse, wireplumber, network-manager, fonts-noto, mesa-vulkan-drivers, libgl1-mesa-dri, polkit-kde-agent-1, powerdevil, xdg-desktop-portal, xdg-desktop-portal-kde, layer-shell-qt, qt6-svg-plugins, qt6-image-formats-plugins, sudo, wpasupplicant, xdg-user-dirs, plasma-integration, breeze, breeze-gtk-theme, dolphin, gwenview, firefox-esr, plymouth, plymouth-label, zsh, zsh-autosuggestions, zsh-syntax-highlighting, fastfetch, flatpak, ark, kate, haruna, okular, unzip, zip, 7zip, cups, cups-client, cups-filters, ipp-usb, avahi-daemon, hunspell-pt-pt, hunspell-en-us, fonts-noto-cjk, snapper, btrfs-progs, unattended-upgrades, os-prober, ntfs-3g
+Depends: journeyos-shell (= 1.1.3), quickshell, kwin-wayland, kwin-common, kwin-x11, xwayland, kscreen, sddm, dbus-user-session, dbus-bin, seatd, pipewire, pipewire-pulse, wireplumber, network-manager, fonts-noto, mesa-vulkan-drivers, libgl1-mesa-dri, polkit-kde-agent-1, powerdevil, xdg-desktop-portal, xdg-desktop-portal-kde, layer-shell-qt, qt6-svg-plugins, qt6-image-formats-plugins, sudo, wpasupplicant, xdg-user-dirs, plasma-integration, breeze, breeze-gtk-theme, dolphin, gwenview, firefox-esr, plymouth, plymouth-label, zsh, zsh-autosuggestions, zsh-syntax-highlighting, fastfetch, flatpak, ark, kate, haruna, okular, unzip, zip, 7zip, cups, cups-client, cups-filters, ipp-usb, avahi-daemon, hunspell-pt-pt, hunspell-en-us, fonts-noto-cjk, snapper, btrfs-progs, unattended-upgrades, os-prober, ntfs-3g, ufw, systemd-zram-generator
 Priority: optional
 Section: x11
-Filename: pool/main/j/journeyos-desktop/journeyos-desktop_1.1.2_all.deb
-Size: 4401208
-SHA256: 9c47f1ef378879bce6d3a76d129b65547cdc16a25ba6c1b91cf1ec174f986f20
-SHA1: e4612d188933790ec702d2556a142a838261acb5
-MD5sum: bbc60b269d25ebd5aca1701bc34609c4
+Filename: pool/main/j/journeyos-desktop/journeyos-desktop_1.1.3_all.deb
+Size: 4403608
+SHA256: 5560abeb6207fb6ef8a73c5dcdf24859d47889a5ca1d79eb6234152493b3de2f
+SHA1: 851bfb2213a8bc60fe8c27b8277a964bf3116307
+MD5sum: 1589519d3d3d7ff43a54d1db992783b4
 Description: JourneyOS desktop session
  KWin (Wayland, without Plasma) + Quickshell session, the JourneyOS system
  name and the boot menu theme.
 
 Package: journeyos-shell
-Version: 1.1.2
+Version: 1.1.3
 Architecture: all
 Maintainer: JourneyOS <noreply@journeyos.local>
 Depends: quickshell, python3, python3-gi, gir1.2-glib-2.0, libkf6config-bin, libglib2.0-bin, qdbus-qt6, wl-clipboard, imagemagick, kde-spectacle, pipewire-bin, network-manager, mesa-utils-bin, rsync, curl, xdg-utils, xdg-user-dirs, konsole, kdialog, upower, bluez, power-profiles-daemon, udisks2, pkexec, accountsservice, polkit-kde-agent-1, kwin-wayland, kwin-common, kwin-style-breeze, kscreen, qml6-module-org-kde-kirigami, breeze-cursor-theme, kf6-breeze-icon-theme, fonts-jetbrains-mono, fonts-noto-color-emoji, ocean-sound-theme, sound-theme-freedesktop, sddm
 Recommends: cava, qrencode, fd-find
 Priority: optional
 Section: x11
-Filename: pool/main/j/journeyos-shell/journeyos-shell_1.1.2_all.deb
-Size: 2188384
-SHA256: ad8d42695f37438e100552cd2050b83de2dfe6cffe656465c2a30058262945b2
-SHA1: d4e2fcad42f6ef04c2e4d5bcdbd1e71f3f8684e2
-MD5sum: 337a0fa30fbafac46b4e16ca3b8ca6a0
+Filename: pool/main/j/journeyos-shell/journeyos-shell_1.1.3_all.deb
+Size: 2189688
+SHA256: 1452c69f2f3f849c5f4484ce7591cea76de4923453d0d5f3f114f8530d655c73
+SHA1: b867dc6790280b61d182d54f164b57d96734729c
+MD5sum: c0d98423036a1e7ad4da3b7b9f4029c8
 Description: JourneyOS desktop shell (Quickshell)
  Bar, dock, desktop widgets, notifications, launcher, dashboard and settings,
  plus the matching lock screen, window decoration, Alt+Tab and login theme.

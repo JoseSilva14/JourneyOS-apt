@@ -5,26 +5,26 @@ Origin: JourneyOS
 Label: JourneyOS
 Suite: stable
 Codename: trixie
-Date: Mon, 16 Nov 2026 12:10:35 UTC
+Date: Mon, 16 Nov 2026 12:52:52 UTC
 Architectures: amd64
 Components: main
 Description: JourneyOS packages (shell, session, Quickshell)
 MD5Sum:
- 5cf1ffc701b307df8371033cda10f4de 4074 main/binary-amd64/Packages
- 34b86390588a253172f703d45af9eb37 1824 main/binary-amd64/Packages.gz
+ 7a122314c7579e7b2b5af04792e6dca3 4103 main/binary-amd64/Packages
+ c55b09256b5857937d88663c1c072c28 1842 main/binary-amd64/Packages.gz
  26cf116a508b3dbded565bb8b25ef7d0 148 main/binary-amd64/Release
 SHA1:
- 86d666b88497457dc6aded4ebee02261efadf837 4074 main/binary-amd64/Packages
- 4a7554ec2286e43fd72d8774893e412ba7d32e2a 1824 main/binary-amd64/Packages.gz
+ 62ed42387666bdd7fcae37802bdc0ad2e3752b58 4103 main/binary-amd64/Packages
+ c7c61237c424bc57bfbb33c57f2407f30059ca19 1842 main/binary-amd64/Packages.gz
  07e69009fb9d8c752091563842aa31cd92babe1e 148 main/binary-amd64/Release
 SHA256:
- 95afc0ef32a4ed552992ff36c144fe1cb43bc512e2702a7dfcc87ba505c2317f 4074 main/binary-amd64/Packages
- 4e1b35c5a0db31a75ac29644caf83590805d215932247d4627d4bc65824559d7 1824 main/binary-amd64/Packages.gz
+ 1b76033c885a790e05402244e7a83d81da592421660238a727114e48092d3a4c 4103 main/binary-amd64/Packages
+ 01296abdaf269a75a68608dbb720040a4a28c28b03141608bcd16956d0081cea 1842 main/binary-amd64/Packages.gz
  7b1dd1e991c16275f14457f590452d34f2436842a7d6f66dfb70cf60d9285b05 148 main/binary-amd64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iHUEARYKAB0WIQTzES79tFoLi8f6zO7tDGR5tlqyaQUCavryuwAKCRDtDGR5tlqy
-aX1KAQDdlecTSba8Y22N4sPB2d9PU/htbX3tf4Zq3vPDSI8M/AD9EXPUqW3mX9Rn
-Xqxgb4yIrmpwdoFO4zf1CRSwFiiJrQQ=
-=yYEw
+iHUEARYKAB0WIQTzES79tFoLi8f6zO7tDGR5tlqyaQUCavr8pAAKCRDtDGR5tlqy
+aQ3pAP0bBbivz3SL3xrRO08yhaumkum4AHI00yhtLRSxUZEd5QD/WhRudPtlR3xo
+TKxkKFF+spM6a8MH8sLLbWN+Eh2ZdAQ=
+=6Jbo
 -----END PGP SIGNATURE-----
