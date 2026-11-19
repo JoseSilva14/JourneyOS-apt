@@ -1,32 +1,32 @@
 Package: journeyos-desktop
-Version: 1.1.10
+Version: 1.1.11
 Architecture: all
 Maintainer: JourneyOS <noreply@journeyos.local>
-Depends: journeyos-shell (= 1.1.10), quickshell, kwin-wayland, kwin-common, kwin-x11, xwayland, kscreen, sddm, dbus-user-session, dbus-bin, seatd, pipewire, pipewire-pulse, wireplumber, network-manager, fonts-noto, mesa-vulkan-drivers, libgl1-mesa-dri, polkit-kde-agent-1, powerdevil, xdg-desktop-portal, xdg-desktop-portal-kde, layer-shell-qt, qt6-svg-plugins, qt6-image-formats-plugins, sudo, wpasupplicant, xdg-user-dirs, plasma-integration, breeze, breeze-gtk-theme, dolphin, gwenview, firefox-esr, plymouth, plymouth-label, zsh, zsh-autosuggestions, zsh-syntax-highlighting, fastfetch, flatpak, ark, kate, haruna, okular, unzip, zip, 7zip, cups, cups-client, cups-filters, ipp-usb, avahi-daemon, hunspell-pt-pt, hunspell-en-us, fonts-noto-cjk, snapper, btrfs-progs, unattended-upgrades, os-prober, ntfs-3g, ufw, systemd-zram-generator, kdeconnect, systemd-oomd, libnotify-bin, efibootmgr, kwallet6, libpam-kwallet5, packagekit, packagekit-tools, appstream, curl
+Depends: journeyos-shell (= 1.1.11), quickshell, kwin-wayland, kwin-common, kwin-x11, xwayland, kscreen, sddm, dbus-user-session, dbus-bin, seatd, pipewire, pipewire-pulse, wireplumber, network-manager, fonts-noto, mesa-vulkan-drivers, libgl1-mesa-dri, polkit-kde-agent-1, powerdevil, xdg-desktop-portal, xdg-desktop-portal-kde, layer-shell-qt, qt6-svg-plugins, qt6-image-formats-plugins, sudo, wpasupplicant, xdg-user-dirs, plasma-integration, breeze, breeze-gtk-theme, dolphin, gwenview, firefox-esr, plymouth, plymouth-label, zsh, zsh-autosuggestions, zsh-syntax-highlighting, fastfetch, flatpak, ark, kate, haruna, okular, unzip, zip, 7zip, cups, cups-client, cups-filters, ipp-usb, avahi-daemon, hunspell-pt-pt, hunspell-en-us, fonts-noto-cjk, snapper, btrfs-progs, unattended-upgrades, os-prober, ntfs-3g, ufw, systemd-zram-generator, kdeconnect, systemd-oomd, libnotify-bin, efibootmgr, kwallet6, libpam-kwallet5, packagekit, packagekit-tools, appstream, curl
 Priority: optional
 Section: x11
-Filename: pool/main/j/journeyos-desktop/journeyos-desktop_1.1.10_all.deb
-Size: 4409516
-SHA256: 383e5049b17beee882fdbdc12c2e6d36766ee47bb6899149e8e20044bf59661b
-SHA1: 3b7f80c703ca35eb9af107cc74066968d99cfe91
-MD5sum: f70e3af1201546906ff7d9e6ae792477
+Filename: pool/main/j/journeyos-desktop/journeyos-desktop_1.1.11_all.deb
+Size: 4409692
+SHA256: 3a5608bb92101cb671276676741a4632ebbade032407e928f28855f1b46d1247
+SHA1: fdbd9ba9b834988a4e6568ca183dcae3e6259501
+MD5sum: ff985a9e727c96f05efd983e2ee15ce9
 Description: JourneyOS desktop session
  KWin (Wayland, without Plasma) + Quickshell session, the JourneyOS system
  name and the boot menu theme.
 
 Package: journeyos-shell
-Version: 1.1.10
+Version: 1.1.11
 Architecture: all
 Maintainer: JourneyOS <noreply@journeyos.local>
 Depends: quickshell, python3, python3-gi, gir1.2-glib-2.0, libkf6config-bin, libglib2.0-bin, qdbus-qt6, wl-clipboard, imagemagick, pciutils, kde-spectacle, pipewire-bin, network-manager, mesa-utils-bin, rsync, curl, xdg-utils, xdg-user-dirs, konsole, kdialog, upower, bluez, power-profiles-daemon, udisks2, pkexec, accountsservice, polkit-kde-agent-1, kwin-wayland, kwin-common, kwin-style-breeze, kscreen, qml6-module-org-kde-kirigami, breeze-cursor-theme, kf6-breeze-icon-theme, fonts-jetbrains-mono, fonts-noto-color-emoji, ocean-sound-theme, sound-theme-freedesktop, sddm
 Recommends: cava, qrencode, fd-find
 Priority: optional
 Section: x11
-Filename: pool/main/j/journeyos-shell/journeyos-shell_1.1.10_all.deb
-Size: 2285788
-SHA256: a350afc8d2da6cf51682ac2e9d30788c9afa471d86a63e9c2d48b8e950e4b2e2
-SHA1: a495e07bfd33b6a397288bfa0a2e97495df32744
-MD5sum: 292fbaf45e4b34e28d93448078c44b34
+Filename: pool/main/j/journeyos-shell/journeyos-shell_1.1.11_all.deb
+Size: 2286616
+SHA256: 9fc81fa25d3257306b0f03c22c2bdbb7ade4cd011a82ad4eb12c40706b515614
+SHA1: 1493d1b4c9842a326c1fe407fa336b3b28e2b7e8
+MD5sum: ff07ac298ecbcd494c450ce546b9e6af
 Description: JourneyOS desktop shell (Quickshell)
  Bar, dock, desktop widgets, notifications, launcher, dashboard and settings,
  plus the matching lock screen, window decoration, Alt+Tab and login theme.
