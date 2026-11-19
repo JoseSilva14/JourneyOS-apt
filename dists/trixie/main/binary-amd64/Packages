@@ -1,32 +1,32 @@
 Package: journeyos-desktop
-Version: 1.1.5
+Version: 1.1.6
 Architecture: all
 Maintainer: JourneyOS <noreply@journeyos.local>
-Depends: journeyos-shell (= 1.1.5), quickshell, kwin-wayland, kwin-common, kwin-x11, xwayland, kscreen, sddm, dbus-user-session, dbus-bin, seatd, pipewire, pipewire-pulse, wireplumber, network-manager, fonts-noto, mesa-vulkan-drivers, libgl1-mesa-dri, polkit-kde-agent-1, powerdevil, xdg-desktop-portal, xdg-desktop-portal-kde, layer-shell-qt, qt6-svg-plugins, qt6-image-formats-plugins, sudo, wpasupplicant, xdg-user-dirs, plasma-integration, breeze, breeze-gtk-theme, dolphin, gwenview, firefox-esr, plymouth, plymouth-label, zsh, zsh-autosuggestions, zsh-syntax-highlighting, fastfetch, flatpak, ark, kate, haruna, okular, unzip, zip, 7zip, cups, cups-client, cups-filters, ipp-usb, avahi-daemon, hunspell-pt-pt, hunspell-en-us, fonts-noto-cjk, snapper, btrfs-progs, unattended-upgrades, os-prober, ntfs-3g, ufw, systemd-zram-generator, kdeconnect, systemd-oomd, libnotify-bin, efibootmgr, kwallet6, libpam-kwallet5
+Depends: journeyos-shell (= 1.1.6), quickshell, kwin-wayland, kwin-common, kwin-x11, xwayland, kscreen, sddm, dbus-user-session, dbus-bin, seatd, pipewire, pipewire-pulse, wireplumber, network-manager, fonts-noto, mesa-vulkan-drivers, libgl1-mesa-dri, polkit-kde-agent-1, powerdevil, xdg-desktop-portal, xdg-desktop-portal-kde, layer-shell-qt, qt6-svg-plugins, qt6-image-formats-plugins, sudo, wpasupplicant, xdg-user-dirs, plasma-integration, breeze, breeze-gtk-theme, dolphin, gwenview, firefox-esr, plymouth, plymouth-label, zsh, zsh-autosuggestions, zsh-syntax-highlighting, fastfetch, flatpak, ark, kate, haruna, okular, unzip, zip, 7zip, cups, cups-client, cups-filters, ipp-usb, avahi-daemon, hunspell-pt-pt, hunspell-en-us, fonts-noto-cjk, snapper, btrfs-progs, unattended-upgrades, os-prober, ntfs-3g, ufw, systemd-zram-generator, kdeconnect, systemd-oomd, libnotify-bin, efibootmgr, kwallet6, libpam-kwallet5, packagekit, packagekit-tools
 Priority: optional
 Section: x11
-Filename: pool/main/j/journeyos-desktop/journeyos-desktop_1.1.5_all.deb
-Size: 4407176
-SHA256: 00105ffb80823920490c7942484dcdd6d3444a6510e3eac328b5b9b167e6abba
-SHA1: f3cfae69eef284be9f3e673498f77961d1e18285
-MD5sum: 16cceae8c34b38a9efca42978217680a
+Filename: pool/main/j/journeyos-desktop/journeyos-desktop_1.1.6_all.deb
+Size: 4407184
+SHA256: fb0e7859ed7faf67cc818a2ec34dddd0d46eda6c4e398c3bc5a9e3a682361929
+SHA1: 0febd421da33f31f660412dabc27eeb4ffa25571
+MD5sum: 8d16743827a36e153293ec33edcf1939
 Description: JourneyOS desktop session
  KWin (Wayland, without Plasma) + Quickshell session, the JourneyOS system
  name and the boot menu theme.
 
 Package: journeyos-shell
-Version: 1.1.5
+Version: 1.1.6
 Architecture: all
 Maintainer: JourneyOS <noreply@journeyos.local>
 Depends: quickshell, python3, python3-gi, gir1.2-glib-2.0, libkf6config-bin, libglib2.0-bin, qdbus-qt6, wl-clipboard, imagemagick, pciutils, kde-spectacle, pipewire-bin, network-manager, mesa-utils-bin, rsync, curl, xdg-utils, xdg-user-dirs, konsole, kdialog, upower, bluez, power-profiles-daemon, udisks2, pkexec, accountsservice, polkit-kde-agent-1, kwin-wayland, kwin-common, kwin-style-breeze, kscreen, qml6-module-org-kde-kirigami, breeze-cursor-theme, kf6-breeze-icon-theme, fonts-jetbrains-mono, fonts-noto-color-emoji, ocean-sound-theme, sound-theme-freedesktop, sddm
 Recommends: cava, qrencode, fd-find
 Priority: optional
 Section: x11
-Filename: pool/main/j/journeyos-shell/journeyos-shell_1.1.5_all.deb
-Size: 2231108
-SHA256: 7be06d96b24bf57d90510c444dd6fcb41a8370fe16b42bfe7a1b505bfbe94c53
-SHA1: 639469fa803cb20915777baf38b310cc5306f1ef
-MD5sum: 0fe69376d4259b05e769159c0986a473
+Filename: pool/main/j/journeyos-shell/journeyos-shell_1.1.6_all.deb
+Size: 2232064
+SHA256: 4d9be53abc6ca482fc455aa65e172053ac0793271e594a75065773aec67953e2
+SHA1: d9e81eb3177128031bfbb648a643449848211e67
+MD5sum: 3eb4234083ad58a60489566e22ce9559
 Description: JourneyOS desktop shell (Quickshell)
  Bar, dock, desktop widgets, notifications, launcher, dashboard and settings,
  plus the matching lock screen, window decoration, Alt+Tab and login theme.
